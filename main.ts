@@ -42,3 +42,4 @@ let mySprite = sprites.create(img`
     ............f...cf..............
     `, SpriteKind.Player)
 mySprite.top = 102
+mySprite.sayText(":)", 500, true)
